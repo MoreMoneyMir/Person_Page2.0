@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Miriam Kromah</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body id="mainBackground">
+    <button onclick="myFunction()">Toggle dark mode</button>
+    <h1>MIRIAM KROMAH</h1>
+    <nav>
+        <ul class="container">
+            <li><a href="#aboutme" style="text-decoration:none;" class="nav-links">About Me</a></li>
+            <li><a href="#img-gallery" style="text-decoration:none;" class="nav-links">Gallery</a></li>
+            <li><a href="#quote" style="text-decoration:none;" class="nav-links">Quote</a></li>
+        </ul>
+    </nav>
+    <p id="subtitle">A woman of many passions and talents</p>
+   
+    <div class="row" id="video" class="center">
+    
+        <video class="center" autoplay class="centered-elements">
+        <source src="BDAY.MOV" type="video/mp4">
+    </video>
+
+    <video class="center" autoplay class="centered-elements">
+        <source src="BDAY.MOV" type="video/mp4">
+    </video>
+
+    <video class="center" autoplay class="centered-elements">
+        <source src="BDAY.MOV" type="video/mp4">
+    </video>
+    </div>
+
+    <h2 id="aboutme">About Me</h2>
+    <p class="info">
+        I'm from Guinea, a Francophone country in West Africa. 
+        I moved to the U.S. when I was 9, not speaking a word of English, 
+        but I was fluent in four languages found in Guinea. 
+        I was enrolled in ESL from 4th to 6th grade. During those years, 
+        I thought I would never learn English. 
+        Fast forward, I am fluent in English; even my thoughts are in English. 
+        Of course, my accent sneaks up a lot with certain words. 
+        For example, when I say worm and warm, it comes out sounding the same. 
+        I used to pronounce "Human" without saying the H. <br>
+        I refer to myself as <strong>a woman of many passions and talents</strong>
+        because I have so many interests and I want to pursue them all. 
+        Whether I succeed or fail, I want to be able to say I at least went for it. <br>
+        I am currently pursuing a career in tech as a Project Manager.
+        At the same time, I am building my coding skills.
+    </p>
+    <div class="row" id="img-gallery">
+
+        <div class="column">
+            <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1601574884l/55529948._SY475_.jpg" alt="a book">
+            <p class="captions">I am a bookworm</p>
+        </div> 
+
+        <div class="column">
+            <img src="IMG_7219.jpg" alt="french toast">
+            <p class="captions">Check out my food blog 
+         <a href="https://instagram.com/e.a.t.globe?utm_medium=copy_link" target="_blank">E.A.T.Globe</a>
+            </p>
+        </div> 
+
+        <div class="column">
+            <img src="IMG_5486.jpg" alt="a planner cover">
+            <p class="captions">I create and sell digital planners 
+            <a href="https://www.etsy.com/listing/1155101732/melanin-skin-tone-undated-hyperlinked?click_key=c649ab81bd7cf8164f4c63f4e6d2c6a5e781b980%3A1155101732&click_sum=238f282f&ref=shop_home_active_1&pro=1" target="_blank">LUXE PLANNER CO</a>
+            </p>
+        </div> 
+
+    </div>
+
+    <blockquote class="centered-elements" id="quote">
+        <span>Something that I live by:</span>
+        <p id="quote">
+            "You'll always have problems. Learn to enjoy life while you solve them"
+        </p>
+    </blockquote>
+
+    <div class="typewriter">
+        <h3 class="centered-elements">Thanks for coming to my Ted Talk!!!</h3>
+      </div>
+    
+    <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
+</body>
+
+</html>
